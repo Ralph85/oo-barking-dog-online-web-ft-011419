@@ -1,8 +1,16 @@
 class Dog
-  attr_accessor :name
-
-  def self.name(name)
-    fido = Dog.new
-    fido.bark
-    puts "woof"
+  def name=(dogs_name)
+    @name = dogs_name
   end
+
+  def name
+    @name
+  end
+
+end
+
+def bark
+    puts "woof!"
+  end
+
+end
