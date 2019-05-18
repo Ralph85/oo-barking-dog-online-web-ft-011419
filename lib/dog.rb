@@ -9,7 +9,8 @@ class Dog
 
 end
 
-def bark
+class Dog
+  def bark
     puts "woof!"
   end
 
